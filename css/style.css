@@ -1,1 +1,214 @@
 @charset "utf-8";
+
+
+
+img {
+  max-width: 100%;
+}
+
+.fa-3x {
+ 
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 150px;
+  color: #777;
+}
+
+.main-nav {
+  
+  display: flex;
+  font-size: 12px;
+  padding: 12px 14px;
+  margin-top: 20px;
+  margin-right: 150px;
+  color: #ffffff;
+  background-color: #6ba7eb;
+  
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.home-content {
+  text-align: center;
+ 
+}
+
+.page-title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  padding-top: 400px;
+}
+
+.home-content p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 30px 0px 400px ;
+}
+
+.bg {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+min-height: 100vh;
+}
+
+
+
+/* 背景色左右に空白あり。画像とテキストの間に隙間と画像とテキストの端（画像の左側とテキストの右の空白）を均等に、WORK
+タイトルの上の余白が画像のtopから20px下にする h1が余白を作っている原因*/
+
+
+
+.flex {
+  display: flex;
+  background: #e3f2fd;
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  
+}
+
+.about img {
+  width: 250px;
+  
+  }
+
+.title-text {
+  margin-left: 50px;
+}
+
+.title-work {
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 90px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+
+
+.work-text {
+  text-align:center;
+  margin-left: 90px;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+
+
+.title-skill {
+  text-align:center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+}
+
+.container {
+  background: #fff;
+ padding-top: 70px;
+ padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  column-gap: 100px;
+  row-gap: 100px;
+  justify-content: center;
+}
+
+.container img {
+  height: 300px;
+  width: 300px;
+}
+
+.plan {
+  background: #d0dfea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-plan {
+  text-align:center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 1100px;
+  table-layout: fixed;
+}
+
+td,th {
+padding: 10px;
+font-size: 16px;
+line-height: 26px;
+border-left: 2px solid #fff;
+text-align: center;
+}
+
+/* td:nth-child(4),td:nth-child(6) {
+ 
+} */
+
+thead {
+  background: #6ba7eb;
+}
+
+tbody tr:nth-child(n) {
+  background: #f9f9f9;
+}
+
+tbody tr:nth-child(2n) {
+  background: #e0efff;
+}
+
+.sns-icon {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #e3f2fd;
+  text-align: center;
+  
+}
+
+
+
+.snsButtons {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+  
+}
+
+.sns-icon li {
+
+  width: 185px;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+}
+
+
+.footer {
+  background: #cfd8dc;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 110px;
+  text-align: right;
+  
+}
+
+.copyright {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
