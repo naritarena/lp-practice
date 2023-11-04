@@ -6,62 +6,58 @@ img {
   max-width: 100%;
 }
 
+.page-header {
+  width: 1100px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 150px 15px 150px;
+  position: fixed;
+  align-items: center;
+}
+
 .fa-3x {
- 
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 150px;
   color: #777;
 }
 
+
 .main-nav {
-  
   display: flex;
   font-size: 12px;
   padding: 12px 14px;
-  margin-top: 20px;
-  margin-right: 150px;
   color: #ffffff;
   background-color: #6ba7eb;
   
 }
 
-.page-header {
-  display: flex;
-  justify-content: space-between;
-}
+
+
 
 
 .home-content {
   text-align: center;
- 
+ padding-top: 400px;
+ padding-bottom: 400px;
 }
 
 .page-title {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  padding-top: 400px;
 }
 
 .home-content p {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  padding: 30px 0px 400px ;
+  padding-top: 30px;
 }
 
 .bg {
   background-image: url(../img/keyvisual/keyvisual.jpg);
 min-height: 100vh;
+background-repeat: no-repeat;
 }
-
-
-
-/* 背景色左右に空白あり。画像とテキストの間に隙間と画像とテキストの端（画像の左側とテキストの右の空白）を均等に、WORK
-タイトルの上の余白が画像のtopから20px下にする h1が余白を作っている原因*/
-
-
 
 .flex {
   display: flex;
@@ -157,9 +153,6 @@ border-left: 2px solid #fff;
 text-align: center;
 }
 
-/* td:nth-child(4),td:nth-child(6) {
- 
-} */
 
 thead {
   background: #6ba7eb;
