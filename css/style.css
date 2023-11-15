@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+.inner {
+  width: 1100px;
+}
 
 img {
   max-width: 100%;
@@ -20,24 +22,18 @@ img {
   color: #777;
 }
 
-
 .main-nav {
   display: flex;
   font-size: 12px;
   padding: 12px 14px;
   color: #ffffff;
   background-color: #6ba7eb;
-  
 }
-
-
-
-
 
 .home-content {
   text-align: center;
- padding-top: 400px;
- padding-bottom: 400px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
 .page-title {
@@ -55,8 +51,8 @@ img {
 
 .bg {
   background-image: url(../img/keyvisual/keyvisual.jpg);
-min-height: 100vh;
-background-repeat: no-repeat;
+  min-height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .flex {
@@ -66,20 +62,18 @@ background-repeat: no-repeat;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 50px;
-  
 }
 
 .about img {
   width: 250px;
-  
-  }
+}
 
 .title-text {
   margin-left: 50px;
 }
 
 .title-work {
-  text-align:center;
+  text-align: center;
   margin-top: 20px;
   margin-bottom: 35px;
   margin-left: 90px;
@@ -87,20 +81,16 @@ background-repeat: no-repeat;
   letter-spacing: 10px;
 }
 
-
-
 .work-text {
-  text-align:center;
+  text-align: center;
   margin-left: 90px;
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
 }
 
-
-
 .title-skill {
-  text-align:center;
+  text-align: center;
   font-size: 40px;
   letter-spacing: 10px;
   margin-top: 50px;
@@ -108,8 +98,8 @@ background-repeat: no-repeat;
 
 .container {
   background: #fff;
- padding-top: 70px;
- padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   display: grid;
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(2, 300px);
@@ -130,13 +120,11 @@ background-repeat: no-repeat;
 }
 
 .title-plan {
-  text-align:center;
+  text-align: center;
   font-size: 40px;
   letter-spacing: 10px;
   margin-bottom: 50px;
 }
-
-
 
 table {
   border-collapse: collapse;
@@ -145,14 +133,14 @@ table {
   table-layout: fixed;
 }
 
-td,th {
-padding: 10px;
-font-size: 16px;
-line-height: 26px;
-border-left: 2px solid #fff;
-text-align: center;
+td,
+th {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border-left: 2px solid #fff;
+  text-align: center;
 }
-
 
 thead {
   background: #6ba7eb;
@@ -171,26 +159,19 @@ tbody tr:nth-child(2n) {
   padding-bottom: 200px;
   background: #e3f2fd;
   text-align: center;
-  
 }
-
-
 
 .snsButtons {
   padding-top: 25px;
   padding-bottom: 25px;
-  
-  
 }
 
 .sns-icon li {
-
   width: 185px;
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
 }
-
 
 .footer {
   background: #cfd8dc;
@@ -198,7 +179,6 @@ tbody tr:nth-child(2n) {
   padding-bottom: 25px;
   padding-right: 110px;
   text-align: right;
-  
 }
 
 .copyright {
