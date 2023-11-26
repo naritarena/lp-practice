@@ -1,23 +1,40 @@
 @charset "utf-8";
 
+
+
 .inner {
-  width: 1100px;
+  max-width: 1100px;
 }
 
 img {
   max-width: 100%;
 }
 
-.page-header {
-  background: #fff;
-  position: fixed;
+
+
+
+/* ↓position: fixed;をいれると要素が崩れて固定にできなくなった
+右側に空白あり
+footer部分が横に伸びている
+WE ARE SKILLSの部分がレイアウト崩れを起こしている？ */
+header {
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.headerbox {
+header .header {
+  background: #fff;
+}
+
+.page-header {
+ 
   display: flex;
+  
   justify-content: space-between;
-  padding: 15px 150px 15px 150px;
-  align-items: center;
+  margin: 0 auto;
+  align-items: center; 
+ 
 }
 
 .fa-3x {
